@@ -1,0 +1,44 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+footer p {
+
+  text-align: center;
+}
+.sanadtech h1 {
+  text-align: center;
+}
+.sanadtech img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+.sanadtech a { margin:0px auto;
+  width:200px;
+  display:block;
+  font-weight: bold;
+  font-size: large;
+}
+.sanadtech a:hover{ color: green;}
+.pull-left{
+  margin-left: 20px;
+  background-color: blue;
+  color: azure;
+}
+.pull-right{
+  margin-right: 20px;
+  background-color: blue;
+  color: azure;
+}
+.paging-button  {
+
+  visibility: hidden;
+
+}
+
+.button-container {
+  clear: both;
+}
